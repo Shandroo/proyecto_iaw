@@ -41,6 +41,7 @@ if($resultado->num_rows > 0) { // login correcto
   header("Location: formulariologin.php?msg=Los datos indicados no son correctos");
   exit;
     
+  
 }
  
 //Cierro la conexión a la base de datos.
